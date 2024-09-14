@@ -32,7 +32,7 @@ let d  = new Date()
 // console.log(d);
 // let d2 = d.getTime()
 let d3 = d.getDay(d);
-console.log("Get day is:" + d3);
+// console.log("Get day is:" + d3);
 
 // converting dates to strings
 
@@ -45,4 +45,12 @@ const year = date.getFullYear();
 const formattedDate = `${day}/${month}/${year}`;
 
 console.log(formattedDate);
+
+let date1 = String(date.getDate());
+let month1 = String(date.getMonth()+1).padStart(2,'0')
+
+console.log(month1);
+
+console.log(date1);
+
 
