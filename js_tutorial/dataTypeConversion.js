@@ -15,7 +15,15 @@
 let a1 = "5"
 let ab = + a1;
 // console.log(ab);
-console.log(typeof(a1)); //show string 
-console.log(typeof(ab)); //show number
+// console.log(typeof(a1));      //show string 
+// console.log(typeof(ab));        //show number
+
+// converting numbers to strings
+
+let numberFirst = 123456;
+console.log(numberFirst);
+console.log(String(numberFirst));  //convert number to string
+
+
 
 
